@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.0/minty/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Bored</title>
+</head>
+
+<body>
+
+    <main>
+        <h1 class="title">What can I do? 🤔 </h1>
+        <section class="container">
+
+            <div class="type">
+                <h3>Type</h3>
+
+                <select name="type" id="type">
+                    <option value="nothing">-</option>
+                    <option value="diy">Diy</option>
+                    <option value="education">Education</option>
+                    <option value="social">Social</option>
+                    <option value="relaxation">Relaxation</option>
+                </select>
+            </div>
+            <div class="people">
+                <h3>People</h3>
+                <select name="people" id="people">
+                    <option value="nothing">-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+            <div class="price">
+                <h3>Price</h3>
+                <select name="price" id="price">
+                    <option value="nothing">-</option>
+                    <option value="free">Free</option>
+                    <option value="payment">I can pay...</option>
+
+                </select>
+            </div>
+            <div class="accessibility">
+                <h3>Difficulty</h3>
+                <select name="accessibility" id="accessibility">
+                    <option value="nothing">-</option>
+                    <option value="easy">Easy</option>
+                    <option value="hard">Hard</option>
+
+                </select>
+            </div>
+            <div class="random">
+                <h3>Random</h3><button type="button" class="btn btn-primary">Generate!</button>
+            </div>
+        </section>
+        <div class="resultDiv">
+            <h2>You should do...</h2>
+            <div class='spinner hidden'></div>
+            <div class="result">
+
+            </div>
+        </div>
+    </main>
+    <script src="https://unpkg.com/bootstrap@4.1.0/dist/js/bootstrap.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
